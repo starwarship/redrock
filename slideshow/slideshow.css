@@ -1,0 +1,68 @@
+#slideshow{
+    overflow: hidden;
+    width: 920px;
+    position: relative;
+    top: 5px;
+  }
+  /* 图片 */
+.ul_img img{
+    width: 100%;
+  }
+  .li_img {
+    width: 920px;
+    float: left;
+    list-style: none;
+    overflow: hidden;
+  }
+  .ul_img {
+    width: 2760px;
+    padding: 0px;
+    margin-top: 10px;
+    transition: all 2s;/*all是什么意思啊*/
+   
+  }
+  .ul_img:hover{
+    background:rgba(0,0,0,0.2);
+  }
+
+  /* 箭头 */
+.arrows {
+    z-index: 9999;
+    position: absolute;
+    top: 175px;
+    width: 920px;
+  }
+  .arrows:hover{
+    display: inline;
+  }
+  .arrows span {
+    font-size: 3em;
+    color: seashell;
+    padding: 20px 5px;
+    background-color: rgba(192, 192, 192, 0.29);
+  }
+  .arrows span:hover {
+    display: inline-block;
+    cursor: pointer;/*光标形状变为手掌状*/
+    background: rgba(0, 0, 0, 0.1);
+    
+  }
+  /* 底下的按钮 */
+  #div_button{
+    position: absolute;
+    top: 350px;
+    left: 870px;
+  }
+.div_btn {
+    cursor: pointer;
+    float: left;
+    border-radius: 10px;
+    background-color:white;
+    width: 8px;
+    height: 5px;
+    margin:0 0 5px 5px;
+    overflow: hidden;
+  }
+  .div_btn:hover {
+    width: 18px;
+  }
